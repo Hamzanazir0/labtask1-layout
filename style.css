@@ -1,0 +1,28 @@
+/* Header CSS */
+
+.header-holder
+{
+    z-index: 99 !important;
+    background-color: #060606;
+    width: 100% !important;
+    top: 0;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+}
+
+.header-wraper
+{
+    width: 98%;
+    max-width: 1450px;
+    min-height: 77px;
+}
+
+.toggle-holder
+{
+    display: none;
+    right: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
